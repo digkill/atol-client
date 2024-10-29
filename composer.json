@@ -9,7 +9,8 @@
             "email": "pavel.agaletskiy@lamoda.ru"
         }
     ],
-    "minimum-stability": "stable",
+   "minimum-stability": "dev",
+   "prefer-stable": true,
     "require": {
         "php": "^8.2",
         "jms/serializer": "^4.0",                   
