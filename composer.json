@@ -13,16 +13,16 @@
    "prefer-stable": true,
     "require": {
         "php": "^8.2",
-        "jms/serializer": "^3.31.0",                   
-        "symfony/validator": "^5.0 || ^6.0",        
-        "guzzlehttp/guzzle": "^7.5 || ^8.0",       
-        "paillechat/php-enum": "^3.0",              
-        "doctrine/annotations": "^2.0",             
-        "doctrine/cache": "^2.2"                    
+        "jms/serializer": "*",                   
+        "symfony/validator": "*",        
+        "guzzlehttp/guzzle": "*",       
+        "paillechat/php-enum": "*",              
+        "doctrine/annotations": "*",             
+        "doctrine/cache": "*"                    
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.0",                   
-        "friendsofphp/php-cs-fixer": "^3.0"          
+        "phpunit/phpunit": "*",                   
+        "friendsofphp/php-cs-fixer": "*"          
     },
     "autoload": {
         "psr-4": {
