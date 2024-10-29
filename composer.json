@@ -12,16 +12,16 @@
     "minimum-stability": "stable",
     "require": {
         "php": "^8.2",
-        "jms/serializer": "^4.0",                    // последняя версия на момент написания
-        "symfony/validator": "^5.0 || ^6.0",         // Symfony 5 и 6 совместимы с PHP 8.2
-        "guzzlehttp/guzzle": "^7.5 || ^8.0",         // Guzzle 7 и 8 поддерживают PHP 8.2
-        "paillechat/php-enum": "^3.0",               // последняя версия php-enum с поддержкой PHP 8+
-        "doctrine/annotations": "^2.0",              // последняя версия
-        "doctrine/cache": "^2.2"                     // версия 2.2 поддерживает PHP 8.2 и выше
+        "jms/serializer": "^4.0",                   
+        "symfony/validator": "^5.0 || ^6.0",        
+        "guzzlehttp/guzzle": "^7.5 || ^8.0",       
+        "paillechat/php-enum": "^3.0",              
+        "doctrine/annotations": "^2.0",             
+        "doctrine/cache": "^2.2"                    
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.0",                   // PHPUnit 9 совместим с PHP 8.2
-        "friendsofphp/php-cs-fixer": "^3.0"          // версия 3.0 и выше поддерживает PHP 8+
+        "phpunit/phpunit": "^9.0",                   
+        "friendsofphp/php-cs-fixer": "^3.0"          
     },
     "autoload": {
         "psr-4": {
