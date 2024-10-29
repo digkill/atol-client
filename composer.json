@@ -13,7 +13,7 @@
    "prefer-stable": true,
     "require": {
         "php": "^8.2",
-        "jms/serializer": "^4.0",                   
+        "jms/serializer": "^3.31.0",                   
         "symfony/validator": "^5.0 || ^6.0",        
         "guzzlehttp/guzzle": "^7.5 || ^8.0",       
         "paillechat/php-enum": "^3.0",              
