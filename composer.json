@@ -1,42 +1,42 @@
 {
-    "name": "lamoda/atol-client",
-    "description": "ATOL API v3/v4/v5 client for php",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Pavel Agaletskiy",
-            "email": "pavel.agaletskiy@lamoda.ru"
-        }
-    ],
-   "minimum-stability": "dev",
-   "prefer-stable": true,
-    "require": {
-        "php": "^8.2",
-        "jms/serializer": "*",                   
-        "symfony/validator": "*",        
-        "guzzlehttp/guzzle": "*",       
-        "paillechat/php-enum": "*",              
-        "doctrine/annotations": "*",             
-        "doctrine/cache": "*"                    
-    },
-    "require-dev": {
-        "phpunit/phpunit": "*",                   
-        "friendsofphp/php-cs-fixer": "*"          
-    },
-    "autoload": {
-        "psr-4": {
-            "Lamoda\\AtolClient\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Lamoda\\AtolClient\\Tests\\": "tests/"
-        }
-    },
-    "config": {
-        "platform": {
-            "php": ">=7.4"
-        }
+  "name": "digkill/atol-client",
+  "description": "ATOL API v3/v4/v5 client for php",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pavel Agaletskiy",
+      "email": "pavel.agaletskiy@lamoda.ru"
     }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^8.2",
+    "jms/serializer": "*",
+    "symfony/validator": "*",
+    "guzzlehttp/guzzle": "*",
+    "paillechat/php-enum": "*",
+    "doctrine/annotations": "*",
+    "doctrine/cache": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "friendsofphp/php-cs-fixer": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lamoda\\AtolClient\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Lamoda\\AtolClient\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "platform": {
+      "php": ">=7.4"
+    }
+  }
 }
